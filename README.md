@@ -153,7 +153,7 @@ QualiDelta = IF(
 ```
 
 ### 2. Sector 1 Best Time
-The following DAX expression calculates best sector 1 time for each driver
+The following DAX expression outputs 1 if driver's sector 1 time = best overal sector 1 time
 
 ```DAX
 S1Best = IF(quali[Sector1TimeSec]=MINX(quali, quali[Sector1TimeSec]), 1, BLANK()) 
@@ -161,14 +161,14 @@ S1Best = IF(quali[Sector1TimeSec]=MINX(quali, quali[Sector1TimeSec]), 1, BLANK()
 The same DAX code was used for the other sectors accordingly.
 
 ### 3. Best Top Speed Category
-The following DAX expression calculates and outputs 1 if top speed is best overall
+The following DAX expression outputs 1 if top speed is best overall
 
 ```DAX
 BestTopSpeedY/N = IF(quali[SpeedST]=MAX(quali[SpeedST]), 1, BLANK())
 ```
 
 ### 4. Best Lap Time Category
-The following DAX expression calculates and outputs 1 if lap time is best overall
+The following DAX expression coutputs 1 if lap time is best overall
 
 ```DAX
 BestLapTimeY/N = IF(quali[LapTimeSec] = MIN(quali[LapTimeSec]), 1, BLANK())
@@ -185,12 +185,12 @@ CALCULATE(
 ```
 
 ### 6. Theoretical Best Category
-The following DAX expression calculates and outputs 1 if  theoretical time is best than best lap time, 2 if theoretical time is equal to best lap time
+The following DAX expression outputs 1 if  theoretical time is best than best lap time, 2 if theoretical time is equal to best lap time
 ```DAX
 TehoBestTheBestY/N = 
 IF(
     quali[TheoBest]=MIN(quali[TheoBest]),1, 
-    IF(OR(quali[TheoBest]=quali[LapTimeSec], quali[Driver]="LEC"), 2, BLANK())
+    IF(quali[TheoBest]=quali[LapTimeSec], 2, BLANK())
 )
 ```
 
