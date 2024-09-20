@@ -1,3 +1,9 @@
+# 2024 Italian Grand Prix Analysis
+![Poster](assets/images/Monza_poster.jpg)
+
+
+
+
 # Table of contents
 - [Objective](#Objective)
 - [Data Source](#Data-Source)
