@@ -23,7 +23,9 @@ The data will be gathered using the [FastF1](https://docs.fastf1.dev/) Python li
 
 
 # Design
+
 ## Dashboard components required
+
 What are the questions we want the dashboard to answer:
 - What were the qualifying and race results?
 - What was the margin in qualifying?
@@ -35,4 +37,7 @@ What are the questions we want the dashboard to answer:
 - What was the overall race pace for drivers and teams?
 
 This may change as we proceed with the analysis.
+
+## Tools
+
 
