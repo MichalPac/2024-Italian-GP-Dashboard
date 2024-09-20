@@ -22,6 +22,7 @@
     - [Python Tab](#Python-Tab)
   - [DAX for Qualifying Dataset](#DAX-for-Qualifying-Dataset)
   - [DAX for Race Dataset](#DAX-for-Race-Dataset)
+  - [Python Scripts in Power BI](#Python-Scripts-in-Power-BI)
 - [Analysis](#Analysis)
 - [Conclusion](#Conclusion)
 - [Appendix](#Appendix)
