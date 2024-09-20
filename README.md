@@ -67,9 +67,18 @@ This may change as we proceed with the analysis.
 
 ## Data exploration
 
-What we learnt?
+What have we learned?
 - We have data that we don't need and can remove it.
-- Lap times and sectors times are in problematic format, we will need to change it.
-- We have all inforamtio we need for dashboard.
+- Lap times and sector times are in a problematic format, which we will need to change.
+- We have all the information we need for the dashboard.
+- The data is mostly clear.
+All code can be found [here](https://github.com/MichalPac/2024-Italian-GP-Dashboard/blob/main/Italian-GP-Analysis-Notebook.ipynb)
+
+## Data cleaning
+
+What have we done?
+- Dropped unnecessary columns.
+- Converted lap times and sector times into seconds.
+
 All code can be found [here](https://github.com/MichalPac/2024-Italian-GP-Dashboard/blob/main/Italian-GP-Analysis-Notebook.ipynb)
 
