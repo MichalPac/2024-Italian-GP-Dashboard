@@ -366,7 +366,7 @@ Additionally, the higher top speed values in the race are largely due to slipstr
 
 
 ### 5. What compounds did the drivers use in the race?
-The most common compound was the hard tire, with drivers spending most of their time on it. Softs were almost not used at all; only Stroll drove 2 laps on this tire during the race.
+The most common compound was the hard tire, with drivers spending most of their time on it. Softs were almost not used at all; only Stroll drove 2 laps on this tire during the race. Probably to try and achieve the fastest lap of the race.
 
 
 ### 6. How many pit stops did each driver make?
@@ -383,6 +383,15 @@ The most common compound was the hard tire, with drivers spending most of their 
 |MAG|1|
 |ALB|1|
 
+As we can see, the most common strategy among the top 10 was a two-stopper. However, the driver who won the race used a one-stop strategy, raising the question of whether the two-stop strategy was the best approach.
+
+
+### 7. How did tire life affect pace?
+For most drivers, lap times on medium tires started to drop after around 10 laps. On the other hand, the hard tires were able to maintain pace for over 30 laps.
+
+
+### 8. What was the overall race pace for drivers and teams?
+"It seems that McLaren had the fastest car, followed by Ferrari. Mercedes and Red Bull had very similar median lap times, and their lap times were more spread out. In the midfield, there were four teams, while Alpine and Kick Sauber had the slowest cars.
 
 
 
