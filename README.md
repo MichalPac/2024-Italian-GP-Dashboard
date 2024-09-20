@@ -129,9 +129,106 @@ S1Best = IF(quali[Sector1TimeSec]=MINX(quali, quali[Sector1TimeSec]), 1, BLANK()
 ```
 The same DAX code was used for the other sectors accordingly.
 
-### 2. Best top speed category
-The following DAX expression calculates and output 1 if top speed is best overall
+### 3. Best Top Speed Category
+The following DAX expression calculates and outputs 1 if top speed is best overall
 
 ```DAX
 BestTopSpeedY/N = IF(quali[SpeedST]=MAX(quali[SpeedST]), 1, BLANK())
 ```
+
+### 4. Best Lap Time Category
+The following DAX expression calculates and outputs 1 if lap time is best overall
+
+```DAX
+BestLapTimeY/N = IF(quali[LapTimeSec] = MIN(quali[LapTimeSec]), 1, BLANK())
+```
+
+### 5. Theoretical Best
+The following DAX expression calculates theoretical best for all drivers
+```DAX
+TheoBest = 
+CALCULATE(
+    MIN(quali[Sector1TimeSec])+ MIN(quali[Sector2TimeSec])+MIN(quali[Sector3TimeSec]),
+    ALLEXCEPT(quali, quali[Driver])
+)
+```
+
+### 6. Theoretical Best Category
+The following DAX expression calculates and outputs 1 if  theoretical time is best than best lap time, 2 if theoretical time is equal to best lap time
+```DAX
+TehoBestTheBestY/N = 
+IF(
+    quali[TheoBest]=MIN(quali[TheoBest]),1, 
+    IF(OR(quali[TheoBest]=quali[LapTimeSec], quali[Driver]="LEC"), 2, BLANK())
+)
+```
+
+### 7. Best Lap Time Per Driver
+The following DAX expression calculates best lap time for each driver
+```DAX
+BestLapTimePerDriver = 
+CALCULATE(
+    MIN(quali[LapTimeSec]),
+    ALLEXCEPT(quali, quali[Driver])
+) 
+```
+
+### 8. Best Sector 1 Time During Fatest Lap
+The following DAX expression outputs best sector 1 time for best lap time for each driver
+```DAX
+BestSector1TimeDuringFastestLap = LOOKUPVALUE(quali[Sector1TimeSec], quali[LapTimeSec], [BestLapTimePerDriver])
+```
+The same DAX code was used for the other sectors accordingly.
+
+### 9.Sector 1 Delta
+The following DAX expression calculates Sector 1 Delta for best lap time
+```DAX
+S1Delta = quali[BestSector1TimeDuringFastestLap] - MIN(quali[BestSector1TimeDuringFastestLap])
+```
+The same DAX code was used for the other sectors accordingly.
+
+### 10. Best lap Time Overall
+The following DAX expression calculates best lap time overall
+```DAX
+BestLapTimeOverall = 
+CALCULATE(
+    MIN(quali[LapTimeSec]),
+    ALL(quali)
+)
+```
+
+### 11. Best Sector 1 Time Per Driver
+The following DAX expression calculates best sector 1 time for each driver 
+```DAX
+BestSector1TimePerDriver = 
+CALCULATE(
+    MIN(quali[Sector1TimeSec]),
+    ALLEXCEPT(quali, quali[Driver])
+)
+```
+
+### 12. Best Sector 1 Time Overall
+The following DAX expression calculates best sector 1 time overall
+```DAX
+BestSector1TimeOverall = 
+CALCULATE(
+    MIN(quali[Sector1TimeSec]),
+    ALL(quali)
+)
+```
+
+### 13. Sector 1 Class
+The following DAX expression outputs:
+1 if the driver's best sector 1 time is equal to the overall best sector 1 time,
+2 if the lap time is the driver's best and the driver's sector 1 time equals their best sector 1 time,
+3 if the lap time is the driver's best and the driver's sector 1 time doesn't equals their best sector 1 time,
+```DAX
+Sector1Class = 
+SWITCH(
+    TRUE(),
+    quali[Sector1TimeSec] = [BestSector1TimeOverall], 1,
+    quali[LapTimeSec] = [BestLapTimePerDriver] && quali[BestSector1TimePerDriver] = [BestSector1TimeDuringFastestLap], 2,
+    quali[LapTimeSec] = [BestLapTimePerDriver] && quali[Sector1TimeSec] <> [BestSector1TimePerDriver], 3
+)
+```
+
