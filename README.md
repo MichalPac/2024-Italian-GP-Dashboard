@@ -29,8 +29,10 @@ What are the questions we want the dashboard to answer:
 - What was the margin in qualifying?
 - What was the performance of each driver in each sector?
 - What were the top speeds in qualifying and the race?
-- What tires did the drivers use?
+- What compounds did the drivers use in the race?
 - How many pit stops did each driver make?
 - How did tire life affect pace?
-- What was the race pace?
+- What was the overall race pace for drivers and teams?
+
+This may change as we proceed with the analysis.
 
