@@ -127,3 +127,4 @@ The following DAX expression calculates best sector 1 time for each driver
 ```DAX
 S1Best = IF(quali[Sector1TimeSec]=MINX(quali, quali[Sector1TimeSec]), 1, BLANK()) 
 ```
+The same DAX code was used for the other sectors accordingly.
