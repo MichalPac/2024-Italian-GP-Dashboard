@@ -424,6 +424,7 @@ ax.spines['right'].set_color('white')
 
 plt.show()
 ```
+![boxPlot](assets/images/boxplot.png)
 
 ### 2. Box plot showing the pace of each team.
 
