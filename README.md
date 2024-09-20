@@ -206,6 +206,7 @@ CALCULATE(
     ALLEXCEPT(quali, quali[Driver])
 )
 ```
+The same DAX code was used for the other sectors accordingly.
 
 ### 12. Best Sector 1 Time Overall
 The following DAX expression calculates best sector 1 time overall
@@ -216,6 +217,7 @@ CALCULATE(
     ALL(quali)
 )
 ```
+The same DAX code was used for the other sectors accordingly.
 
 ### 13. Sector 1 Class
 The following DAX expression outputs:
@@ -231,4 +233,5 @@ SWITCH(
     quali[LapTimeSec] = [BestLapTimePerDriver] && quali[Sector1TimeSec] <> [BestSector1TimePerDriver], 3
 )
 ```
+The same DAX code was used for the other sectors accordingly.
 
