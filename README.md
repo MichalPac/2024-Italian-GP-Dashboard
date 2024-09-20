@@ -375,12 +375,7 @@ import seaborn as sns
 import fastf1
 import fastf1.plotting
 
-team_order = (
-    dataset[["Team", "LapTimeSec"]]
-    .groupby("Team")
-    .median()["LapTimeSec"]
-    .sort_values()
-    .index
+team_order = (dataset[["Team", "LapTimeSec"]].groupby("Team").median()["LapTimeSec"].sort_values().index
 )
 
 team_palette = {
@@ -430,6 +425,8 @@ ax.spines['right'].set_color('white')
 
 plt.show()
 ```
+
+### 2. Box plot showing the pace of each team.
 
 # Analysis
 
