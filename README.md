@@ -113,13 +113,8 @@ All code can be found [here](https://github.com/MichalPac/2024-Italian-GP-Dashbo
 ### 1. Qualifying Delta
 
 ```DAX
-)
 QualiDelta = IF(
     quali[LapTimeSec] - MINX(ALL(quali), quali[LapTimeSec]) >= 0, 
     quali[LapTimeSec] - MINX(ALL(quali), quali[LapTimeSec]),
     BLANK()
 )
-
-
-
-
