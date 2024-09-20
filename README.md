@@ -120,3 +120,10 @@ QualiDelta = IF(
     BLANK()
 ) 
 ```
+
+### 2. Sector 1 Best
+The following DAX expression calculates best sector 1 time for each driver
+
+```DAX
+S1Best = IF(quali[Sector1TimeSec]=MINX(quali, quali[Sector1TimeSec]), 1, BLANK()) 
+```
