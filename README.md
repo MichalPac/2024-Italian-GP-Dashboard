@@ -40,4 +40,7 @@ This may change as we proceed with the analysis.
 
 ## Tools
 
+|Tool               |Purpose                 | 
+|-------------------|-------------------------|
+|Jupyter Notebook   |Using for Python Code    |
 
