@@ -121,7 +121,7 @@ QualiDelta = IF(
 ) 
 ```
 
-### 2. Sector 1 Best
+### 2. Sector 1 Best Time
 The following DAX expression calculates best sector 1 time for each driver
 
 ```DAX
