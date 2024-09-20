@@ -10,13 +10,14 @@ It will serve as a comprehensive tool for analyzing the event, highlighting driv
 
 # Data Source
 
-What do we need to make this dashboard?
-- Lap Times
-- Sectors Times
-- Tires chocies
+What do we need to create this dashboard?
+
+- Lap times
+- Sector times
+- Tire choices
 - Positions
-- Top Speed info
-- Pit Stop Data
+- Top speed information
+- Pit stop data
 
 The data will be gathered using the [FastF1](https://docs.fastf1.dev/) Python library, which is designed to provide easy access to Formula 1 data, including live timing, telemetry, and lap-by-lap details.
 
