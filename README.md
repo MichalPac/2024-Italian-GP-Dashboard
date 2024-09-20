@@ -117,4 +117,5 @@ QualiDelta = IF(
     quali[LapTimeSec] - MINX(ALL(quali), quali[LapTimeSec]) >= 0, 
     quali[LapTimeSec] - MINX(ALL(quali), quali[LapTimeSec]),
     BLANK()
-)
+) 
+```
