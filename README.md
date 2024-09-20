@@ -50,3 +50,18 @@ This may change as we proceed with the analysis.
 | Power BI          | Visualization and dashboard creation   |
 | PowerPoint         | Design templates for the dashboard    |
 
+
+# Development
+
+## Methodology
+
+1. Get the data
+2. Explore the data
+3. Evaluate the data
+4. Clean the data
+5. Visualize the data in Python
+6. Visualize the data in Power BI
+7. Add Python visualizations into Power BI
+8. Build design templates for the dashboard
+9. Write documentation
+
