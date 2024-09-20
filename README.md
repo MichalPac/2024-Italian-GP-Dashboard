@@ -340,9 +340,11 @@ isTopSpeedBest = IF(race[SpeedST] = MAX(race[SpeedST]), 1, BLANK())
 # Analysis
 
 __1. What were the qualifying and race results?__
+
 Qualifying was won by Lando Norris. Second place was claimed by his teammate Piastri, and third place went to Russell.
 
 The race was won by Leclerc, with McLaren driver Piastri finishing in second place and Norris taking third.
+
 
 __2. What was the margin in qualifying?__
 
