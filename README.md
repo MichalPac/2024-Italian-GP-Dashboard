@@ -221,9 +221,9 @@ The same DAX code was used for the other sectors accordingly.
 
 ### 13. Sector 1 Class
 The following DAX expression outputs:
-1 if the driver's best sector 1 time is equal to the overall best sector 1 time,
-2 if the lap time is the driver's best and the driver's sector 1 time equals their best sector 1 time,
-3 if the lap time is the driver's best and the driver's sector 1 time doesn't equals their best sector 1 time,
+- 1 if the driver's best sector 1 time is equal to the overall best sector 1 time,
+- 2 if the lap time is the driver's best and the driver's sector 1 time equals their best sector 1 time,
+- 3 if the lap time is the driver's best and the driver's sector 1 time doesn't equals their best sector 1 time,
 ```DAX
 Sector1Class = 
 SWITCH(
