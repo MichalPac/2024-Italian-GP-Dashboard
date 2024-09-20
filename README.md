@@ -72,6 +72,7 @@ What have we learned?
 - Lap times and sector times are in a problematic format, which we will need to change.
 - We have all the information we need for the dashboard.
 - The data is mostly clear.
+
 All code can be found [here](https://github.com/MichalPac/2024-Italian-GP-Dashboard/blob/main/Italian-GP-Analysis-Notebook.ipynb)
 
 ## Data cleaning
