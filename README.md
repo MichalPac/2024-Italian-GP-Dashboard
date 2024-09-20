@@ -79,6 +79,7 @@ This may change as we proceed with the analysis.
 | Seaborn            | Create Python visualizations          |
 | Power BI          | Visualization and dashboard creation   |
 | PowerPoint         | Design templates for the dashboard    |
+| GitHub              | Hosting project documentation        |
 
 
 # Development
