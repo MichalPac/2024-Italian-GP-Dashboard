@@ -426,7 +426,139 @@ plt.show()
 ```
 ![boxPlot](assets/images/boxplot.png)
 
-### 2. Box plot showing the pace of each team.
+### 2. Scatter plot showing the correlation between tire life and lap times.
+```Python
+import matplotlib.pyplot as plt
+import seaborn as sns
+
+
+mean_lap_time = dataset["LapTimeSec"].mean()
+std_lap_time = dataset["LapTimeSec"].std()
+
+lower_bound = mean_lap_time - std_lap_time
+upper_bound = mean_lap_time + std_lap_time
+
+filtered_data = dataset[(dataset["LapTimeSec"] >= lower_bound) & (dataset["LapTimeSec"] <= upper_bound)]
+
+palette_tires = {
+    "HARD": "white",
+    "MEDIUM": "yellow",
+    "SOFT": "red"
+}
+
+background_color = 'none'
+
+fig, ax = plt.subplots(figsize=(10, 5))
+sns.scatterplot(
+    data=filtered_data,  
+    x="TyreLife",
+    y="LapTimeSec",
+    hue="Compound",
+    palette=palette_tires,  
+    ax=ax
+)
+
+plt.title("Lap Time vs. Tyre Life", color="white")
+plt.xlabel("Tyre Life (in Laps)", color="white")
+plt.ylabel("Lap Time", color="white")
+plt.xticks(color="white")
+plt.yticks(color="white")
+fig.patch.set_facecolor(background_color)
+ax.set_facecolor(background_color)
+ax.spines['top'].set_color('white')
+ax.spines['bottom'].set_color('white')
+ax.spines['left'].set_color('white')
+ax.spines['right'].set_color('white')
+
+plt.show()
+```
+![ScatterPlot](assets/images/scatter.png)
+
+### 3. Line plot showing position changes during the race.
+```Python
+import seaborn as sns
+import matplotlib.pyplot as plt
+
+driver_palette = {
+    'VER': '#00174C',  
+    'PER': '#00174C',  
+    'LEC': '#EF1A2D',  
+    'SAI': '#EF1A2D',  
+    'HAM': '#00A19B',  
+    'RUS': '#00A19B', 
+    'NOR': '#FF8000',  
+    'PIA': '#FF8000',  
+    'OCO': '#FF87BC',  
+    'GAS': '#FF87BC',  
+    'ALO': '#229971', 
+    'STR': '#229971',  
+    'TSU': '#6692FF',  
+    'RIC': '#6692FF',  
+    'BOT': '#52E252',  
+    'ZHO': '#52E252', 
+    'ALB': '#00A0DE',
+    'COL': '#00A0DE',  
+    'MAG': '#F9F2F2',  
+    'HUL': '#F9F2F2'   
+}
+
+line_styles = {
+    'VER': 'solid',
+    'PER': 'dashed',
+    'LEC': 'solid',
+    'SAI': 'dashed',
+    'HAM': 'solid',
+    'RUS': 'dashed',
+    'NOR': 'solid',
+    'PIA': 'dashed',
+    'OCO': 'solid',
+    'GAS': 'dashed',
+    'ALO': 'solid',
+    'STR': 'dashed',
+    'TSU': 'solid',
+    'RIC': 'dashed',
+    'BOT': 'solid',
+    'ZHO': 'dashed',
+    'ALB': 'solid',
+    'COL': 'dashed',
+    'MAG': 'solid',
+    'HUL': 'dashed'
+}
+
+background_color='none'
+
+fig, ax = plt.subplots(figsize=(12, 6))
+sns.lineplot(
+    data=dataset,
+    x="LapNumber",
+    y="Position",
+    hue="Driver",
+    marker='o',
+    palette=driver_palette,
+    style="Driver",
+    ax=ax
+)
+
+plt.title("Postions Over Time", color="white")
+plt.xlabel("Lap Number", color="white")
+plt.ylabel("Position", color="white")
+plt.legend(title="Driver", bbox_to_anchor=(1, 1), loc='upper left')
+ax.invert_yaxis()
+ax.set_yticks(range(1, 21))  
+ax.set_yticklabels(range(1, 21)) 
+plt.xticks(color="white")
+plt.yticks(color="white")
+fig.patch.set_facecolor(background_color)
+ax.set_facecolor(background_color)
+ax.spines['top'].set_color('white')
+ax.spines['bottom'].set_color('white')
+ax.spines['left'].set_color('white')
+ax.spines['right'].set_color('white')
+
+plt.show()
+```
+![LinePlot](assets/images/line.png)
+
 
 # Analysis
 
