@@ -374,8 +374,7 @@ isTopSpeedBest = IF(race[SpeedST] = MAX(race[SpeedST]), 1, BLANK())
 import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
-import fastf1
-import fastf1.plotting
+
 
 team_order = (dataset[["Team", "LapTimeSec"]].groupby("Team").median()["LapTimeSec"].sort_values().index)
 
