@@ -108,7 +108,7 @@ All code can be found [here](https://github.com/MichalPac/2024-Italian-GP-Dashbo
 ![python](assets/images/python_dash.gif)
 
 
-## DAX
+## DAX for Qualifying Dataset
 
 ### 1. Qualifying Delta
 The following DAX expression calculates the qualifying delta for each lap time
