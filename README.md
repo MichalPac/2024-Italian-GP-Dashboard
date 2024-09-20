@@ -12,6 +12,11 @@
 - [Visualization](#Visualization)
   - [Dashboard](#Dashboard)
     - [Qualifying Tab](#Qualifying-Tab)
+    - [Race Tab](#Race-Tab)
+    - [Python Tab](#Python-Tab)
+  - [DAX for Qualifying Dataset](#DAX-for-Qualifying-Dataset)
+  - [DAX for Race Dataset](#DAX-for-Race-Dataset)
+- [Analysis](#Analysis)
 
 
 # Objective
@@ -115,11 +120,11 @@ All code can be found [here](https://github.com/MichalPac/2024-Italian-GP-Dashbo
 
 ![quali](assets/images/quali_dash.gif)
 
-### Race tab
+### Race Tab
 
 ![race](assets/images/race_dash.gif)
 
-### Python tab
+### Python Tab
 
 ![python](assets/images/python_dash.gif)
 
