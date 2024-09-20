@@ -4,4 +4,5 @@ The goal is to build a Power BI dashboard that will provide key insights into th
 - Qualifying performances
 - Race pace
 - Strategy 
+
 It will serve as a comprehensive tool for analyzing the event, highlighting driver performance, tire choices, and key moments throughout the race.
