@@ -6,7 +6,12 @@
   - [Tools](#Tools)
 - [Development](#Development)
   - [Methodology](#Methodology)
-  - Data Exploration(#Data-Exploration)
+  - [Data Exploration](#Data-Exploration)
+  - [Data Cleaning](#Data-Cleaning)
+  - [Python Visualizations](#Python-Visualizations)
+- [Visualization](#Visualization)
+  - [Dashboard](#Dashboard)
+    - [Qualifying Tab](#Qualifying-Tab)
 
 
 # Objective
@@ -106,7 +111,7 @@ All code can be found [here](https://github.com/MichalPac/2024-Italian-GP-Dashbo
 
 ## Dashboard
 
-### Qualifying tab
+### Qualifying Tab
 
 ![quali](assets/images/quali_dash.gif)
 
