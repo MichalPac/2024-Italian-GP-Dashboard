@@ -375,8 +375,7 @@ import seaborn as sns
 import fastf1
 import fastf1.plotting
 
-team_order = (dataset[["Team", "LapTimeSec"]].groupby("Team").median()["LapTimeSec"].sort_values().index
-)
+team_order = (dataset[["Team", "LapTimeSec"]].groupby("Team").median()["LapTimeSec"].sort_values().index)
 
 team_palette = {
     'Red Bull Racing': '#00174C',
