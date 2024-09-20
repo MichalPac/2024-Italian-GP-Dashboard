@@ -40,7 +40,13 @@ This may change as we proceed with the analysis.
 
 ## Tools
 
-|Tool               |Purpose                 | 
-|-------------------|-------------------------|
-|Jupyter Notebook   |Using for Python Code    |
+| Tool               | Purpose                               |
+|-------------------|---------------------------------------|
+| Jupyter Notebook   | Use for Python code                   |
+| Pandas             | Handle and clean the data             |
+| FastF1            | Import the data                       |
+| Matplotlib         | Assist with Python visualizations      |
+| Seaborn            | Create Python visualizations          |
+| Power BI          | Visualization and dashboard creation   |
+| PowerPoint         | Design templates for the dashboard    |
 
