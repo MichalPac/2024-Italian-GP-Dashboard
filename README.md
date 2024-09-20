@@ -346,6 +346,7 @@ Qualifying was won by Lando Norris. Second place was claimed by his teammate Pia
 The race was won by Leclerc, with McLaren driver Piastri finishing in second place and Norris taking third.
 
 
+
 __2. What was the margin in qualifying?__
 
 The first five places remained within 0.186 seconds. After that, the gap to P1 began to grow more quickly, with the biggest gap reaching 2.118 seconds.
