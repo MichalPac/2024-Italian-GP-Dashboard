@@ -1,3 +1,8 @@
+# Table of contents
+-[Objective](#Objective)
+
+
+
 # Objective
 
 The goal is to build a Power BI dashboard that will provide key insights into the 2024 Italian Grand Prix in Formula 1. This dashboard will offer information on:
