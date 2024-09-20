@@ -339,26 +339,24 @@ isTopSpeedBest = IF(race[SpeedST] = MAX(race[SpeedST]), 1, BLANK())
 
 # Analysis
 
-## 1. What were the qualifying and race results?
+### 1. What were the qualifying and race results?
 
 Qualifying was won by Lando Norris. Second place was claimed by his teammate Piastri, and third place went to Russell.
 
 The race was won by Leclerc, with McLaren driver Piastri finishing in second place and Norris taking third.
 
 
-
-
-## 2. What was the margin in qualifying?
+### 2. What was the margin in qualifying?
 
 The first five places remained within 0.186 seconds. After that, the gap to P1 began to grow more quickly, with the biggest gap reaching 2.118 seconds.
 
-## 3. What was the performance of each driver in each sector?
+### 3. What was the performance of each driver in each sector?
 
 The winner of the qualifying, Norris, had a poor sector 1 time, losing 0.269 seconds to Sainz. However, in the 2nd and 3rd sectors, Norris was the fastest driver and made up for the lost time.
 
 We can also see that McLaren wasn't the best car in sector 1 because Norris's teammate Piastri also had quite a margin to Sainz. Sector 1 in Monza mostly consists of straights, which suggests that McLaren didn't have a fast car on the straights compared to rivals.
 
-## 4. What were the top speeds in qualifying and the race?
+### 4. What were the top speeds in qualifying and the race?
 
 The best top speed in qualifying was 353 km/h, achieved by Racing Bulls driver Daniel Ricciardo. In the race, the fastest top speed was 357 km/h, set by Haas F1 Team driver Kevin Magnussen.
 
@@ -366,5 +364,25 @@ It's worth to mention that slower teams had higher top speeds in both qualifying
 
 Additionally, the higher top speed values in the race are largely due to slipstreaming and DRS.
 
-__What compounds did the drivers use in the race?
+
+### 5. What compounds did the drivers use in the race?
+The most common compound was the hard tire, with drivers spending most of their time on it. Softs were almost not used at all; only Stroll drove 2 laps on this tire during the race.
+
+
+### 6. How many pit stops did each driver make?
+|Driver|No. of pitstops|
+|-----|----------------|
+|LEC|1|
+|PIA|2|
+|NOR|2|
+|SAI|1|
+|HAM|2|
+|VER|2|
+|RUS|2|
+|PER|2|
+|MAG|1|
+|ALB|1|
+
+
+
 
