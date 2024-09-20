@@ -83,3 +83,11 @@ What have we done?
 
 All code can be found [here](https://github.com/MichalPac/2024-Italian-GP-Dashboard/blob/main/Italian-GP-Analysis-Notebook.ipynb)
 
+## Python Visualizations
+
+- Plot a box plot to show pace for each team in the race
+- Scatter plot to show the correlation between tire life and lap times.
+- Line plot to show position changes during the race
+
+# Visualization
+
