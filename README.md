@@ -3,7 +3,10 @@
 - [Data Source](#Data-Source)
 - [Design](#Design)
   - [Dashboard components required](#Dashboard-components-required)
-
+  - [Tools](#Tools)
+- [Development](#Development)
+  - [Methodology](#Methodology)
+  - Data Exploration(#Data-Exploration)
 
 
 # Objective
@@ -73,7 +76,7 @@ This may change as we proceed with the analysis.
 8. Build design templates for the dashboard
 9. Write documentation
 
-## Data exploration
+## Data Exploration
 
 What have we learned?
 - We have data that we don't need and can remove it.
@@ -83,7 +86,7 @@ What have we learned?
 
 All code can be found [here](https://github.com/MichalPac/2024-Italian-GP-Dashboard/blob/main/Italian-GP-Analysis-Notebook.ipynb)
 
-## Data cleaning
+## Data Cleaning
 
 What have we done?
 - Dropped unnecessary columns.
