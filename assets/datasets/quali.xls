@@ -1,0 +1,277 @@
+,Driver,DriverNumber,LapNumber,SpeedI1,SpeedI2,SpeedFL,SpeedST,IsPersonalBest,Compound,TyreLife,FreshTyre,Team,Position,Deleted,DeletedReason,FastF1Generated,IsAccurate,LapTimeSec,Sector1TimeSec,Sector2TimeSec,Sector3TimeSec
+0,NOR,4,1.0,262.0,286.0,316.0,136.0,False,SOFT,1.0,True,McLaren,,False,,False,False,,,37.116,32.914
+1,NOR,4,2.0,325.0,337.0,307.0,346.0,True,SOFT,2.0,True,McLaren,,False,,False,True,79.911,26.484,26.898,26.529
+2,NOR,4,3.0,217.0,231.0,,256.0,False,SOFT,3.0,True,McLaren,,False,,False,False,111.021,32.371,38.291,40.359
+3,NOR,4,4.0,256.0,143.0,319.0,197.0,False,SOFT,1.0,True,McLaren,,False,,False,False,,,39.008,31.591
+4,NOR,4,5.0,325.0,337.0,314.0,349.0,True,SOFT,2.0,True,McLaren,,False,,False,True,79.727,26.395,26.865,26.467
+5,NOR,4,6.0,246.0,195.0,,255.0,False,SOFT,3.0,True,McLaren,,False,,False,False,109.446,31.98,37.478,39.988
+6,NOR,4,7.0,243.0,283.0,317.0,104.0,False,SOFT,1.0,True,McLaren,,False,,False,False,,,36.182,31.355
+7,NOR,4,8.0,324.0,338.0,315.0,346.0,True,SOFT,2.0,True,McLaren,,False,,False,True,79.401,26.4,26.748,26.253
+8,NOR,4,9.0,264.0,257.0,,263.0,False,SOFT,3.0,True,McLaren,,False,,False,False,107.128,30.949,34.968,41.211
+9,NOR,4,10.0,229.0,289.0,316.0,101.0,False,SOFT,1.0,True,McLaren,,False,,False,False,,,35.668,30.242
+10,NOR,4,11.0,324.0,338.0,315.0,346.0,True,SOFT,2.0,True,McLaren,,False,,False,True,79.327,26.492,26.579,26.256
+11,NOR,4,12.0,218.0,202.0,,235.0,False,SOFT,3.0,True,McLaren,,False,,False,False,,33.633,38.149,
+12,PIA,81,1.0,266.0,312.0,315.0,113.0,False,SOFT,1.0,True,McLaren,,False,,False,False,,,36.502,31.998
+13,PIA,81,2.0,154.0,294.0,317.0,343.0,False,SOFT,2.0,True,McLaren,,True,TRACK LIMITS AT TURN 2 LAP 3 ,False,True,110.311,35.502,41.647,33.162
+14,PIA,81,3.0,325.0,334.0,310.0,345.0,True,SOFT,3.0,True,McLaren,,False,,False,True,80.488,26.735,26.969,26.784
+15,PIA,81,4.0,265.0,272.0,,218.0,False,SOFT,4.0,True,McLaren,,False,,False,False,110.151,35.141,34.52,40.49
+16,PIA,81,5.0,242.0,298.0,315.0,173.0,False,SOFT,5.0,False,McLaren,,False,,False,False,,,38.791,32.482
+17,PIA,81,6.0,324.0,338.0,314.0,346.0,True,SOFT,6.0,False,McLaren,,False,,False,True,80.076,26.529,26.915,26.632
+18,PIA,81,7.0,249.0,257.0,,218.0,False,SOFT,7.0,False,McLaren,,False,,False,False,110.213,33.981,36.853,39.379
+19,PIA,81,8.0,247.0,311.0,316.0,225.0,False,SOFT,1.0,True,McLaren,,False,,False,False,,,36.598,33.197
+20,PIA,81,9.0,325.0,337.0,314.0,346.0,True,SOFT,2.0,True,McLaren,,False,,False,True,79.808,26.434,26.822,26.552
+21,PIA,81,10.0,265.0,266.0,,199.0,False,SOFT,3.0,True,McLaren,,False,,False,False,112.538,35.569,36.442,40.527
+22,PIA,81,11.0,266.0,312.0,316.0,258.0,False,SOFT,4.0,False,McLaren,,False,,False,False,,,36.614,32.091
+23,PIA,81,12.0,327.0,339.0,317.0,348.0,False,SOFT,5.0,False,McLaren,,False,,False,True,79.845,26.399,26.847,26.599
+24,PIA,81,13.0,141.0,279.0,,237.0,False,SOFT,6.0,False,McLaren,,False,,False,False,113.795,38.419,36.985,38.391
+25,PIA,81,14.0,268.0,313.0,315.0,149.0,False,SOFT,1.0,True,McLaren,,False,,False,False,,,34.881,31.082
+26,PIA,81,15.0,323.0,337.0,315.0,345.0,True,SOFT,2.0,True,McLaren,,False,,False,True,79.436,26.407,26.643,26.386
+27,PIA,81,16.0,253.0,267.0,,236.0,False,SOFT,3.0,True,McLaren,,False,,False,False,105.672,33.304,34.94,37.428
+28,PIA,81,17.0,279.0,313.0,317.0,146.0,False,SOFT,1.0,True,McLaren,,False,,False,False,,,35.997,30.212
+29,PIA,81,18.0,324.0,338.0,314.0,346.0,False,SOFT,2.0,True,McLaren,,False,,False,True,79.661,26.439,26.796,26.426
+30,PIA,81,19.0,239.0,265.0,,207.0,False,SOFT,3.0,True,McLaren,,False,,False,False,,34.889,36.572,
+31,RUS,63,1.0,245.0,311.0,316.0,199.0,False,SOFT,1.0,True,Mercedes,,False,,False,False,,,37.189,34.163
+32,RUS,63,2.0,323.0,336.0,315.0,345.0,True,SOFT,2.0,True,Mercedes,,False,,False,True,80.32,26.615,27.078,26.627
+33,RUS,63,3.0,237.0,296.0,,294.0,False,SOFT,3.0,True,Mercedes,,False,,False,False,113.613,35.434,37.322,40.857
+34,RUS,63,4.0,271.0,311.0,314.0,141.0,False,SOFT,4.0,False,Mercedes,,False,,False,False,,,38.477,32.905
+35,RUS,63,5.0,323.0,339.0,315.0,348.0,True,SOFT,5.0,False,Mercedes,,False,,False,True,80.169,26.437,27.055,26.677
+36,RUS,63,6.0,278.0,312.0,,278.0,False,SOFT,6.0,False,Mercedes,,False,,False,False,111.786,33.104,36.903,41.779
+37,RUS,63,7.0,295.0,275.0,315.0,157.0,False,SOFT,1.0,True,Mercedes,,False,,False,False,,,34.509,34.173
+38,RUS,63,8.0,325.0,337.0,316.0,345.0,True,SOFT,2.0,True,Mercedes,,False,,False,True,79.877,26.463,26.881,26.533
+39,RUS,63,9.0,250.0,295.0,,264.0,False,SOFT,3.0,True,Mercedes,,False,,False,False,115.041,35.833,37.337,41.871
+40,RUS,63,10.0,223.0,310.0,314.0,169.0,False,SOFT,4.0,False,Mercedes,,False,,False,False,,,38.486,33.129
+41,RUS,63,11.0,324.0,337.0,313.0,344.0,False,SOFT,5.0,False,Mercedes,,False,,False,True,80.107,26.507,26.954,26.646
+42,RUS,63,12.0,287.0,287.0,,279.0,False,SOFT,6.0,False,Mercedes,,False,,False,False,103.616,31.002,33.739,38.875
+43,RUS,63,13.0,229.0,291.0,319.0,215.0,False,SOFT,1.0,True,Mercedes,,False,,False,False,,,38.268,35.732
+44,RUS,63,14.0,323.0,337.0,316.0,348.0,True,SOFT,2.0,True,Mercedes,,False,,False,True,79.569,26.349,26.836,26.384
+45,RUS,63,15.0,291.0,310.0,,219.0,False,SOFT,3.0,True,Mercedes,,False,,False,False,105.739,33.02,34.483,38.236
+46,RUS,63,16.0,273.0,266.0,318.0,241.0,False,SOFT,1.0,True,Mercedes,,False,,False,False,,,35.63,37.661
+47,RUS,63,17.0,324.0,337.0,315.0,347.0,True,SOFT,2.0,True,Mercedes,,False,,False,True,79.44,26.296,26.844,26.3
+48,RUS,63,18.0,203.0,239.0,,161.0,False,SOFT,3.0,True,Mercedes,,False,,False,False,,40.404,37.241,
+49,LEC,16,1.0,302.0,298.0,315.0,179.0,False,SOFT,1.0,False,Ferrari,,False,,False,False,,,35.449,32.709
+50,LEC,16,2.0,327.0,340.0,314.0,350.0,True,SOFT,2.0,False,Ferrari,,False,,False,True,80.074,26.468,26.967,26.639
+51,LEC,16,3.0,275.0,264.0,,226.0,False,SOFT,3.0,False,Ferrari,,False,,False,False,108.237,33.34,34.781,40.116
+52,LEC,16,4.0,301.0,278.0,316.0,89.0,False,SOFT,4.0,False,Ferrari,,False,,False,False,,,35.263,31.792
+53,LEC,16,5.0,328.0,339.0,317.0,349.0,False,SOFT,5.0,False,Ferrari,,False,,False,True,80.278,26.529,27.001,26.748
+54,LEC,16,6.0,260.0,278.0,,230.0,False,SOFT,6.0,False,Ferrari,,False,,False,False,111.2,34.056,35.523,41.621
+55,LEC,16,7.0,268.0,259.0,315.0,82.0,False,SOFT,7.0,False,Ferrari,,False,,False,False,,,37.916,31.573
+56,LEC,16,8.0,328.0,339.0,314.0,348.0,True,SOFT,8.0,False,Ferrari,,False,,False,True,80.296,26.667,26.992,26.637
+57,LEC,16,9.0,298.0,296.0,,258.0,False,SOFT,9.0,False,Ferrari,,False,,False,False,101.299,30.056,30.849,40.394
+58,LEC,16,10.0,121.0,312.0,317.0,220.0,False,SOFT,1.0,True,Ferrari,,False,,False,False,125.416,60.587,35.752,29.077
+59,LEC,16,11.0,329.0,338.0,317.0,348.0,True,SOFT,2.0,True,Ferrari,,False,,False,True,80.007,26.475,26.921,26.611
+60,LEC,16,12.0,276.0,278.0,,228.0,False,SOFT,3.0,True,Ferrari,,False,,False,False,109.572,33.698,35.101,40.773
+61,LEC,16,13.0,261.0,291.0,317.0,135.0,False,SOFT,4.0,False,Ferrari,,False,,False,False,,,36.767,30.617
+62,LEC,16,14.0,326.0,341.0,313.0,350.0,False,SOFT,5.0,False,Ferrari,,False,,False,True,80.076,26.509,26.941,26.626
+63,LEC,16,15.0,225.0,185.0,,239.0,False,SOFT,6.0,False,Ferrari,,False,,False,False,113.708,32.51,39.217,41.981
+64,LEC,16,16.0,291.0,305.0,317.0,223.0,False,SOFT,1.0,True,Ferrari,,False,,False,False,,,32.845,32.924
+65,LEC,16,17.0,326.0,340.0,314.0,350.0,True,SOFT,2.0,True,Ferrari,,False,,False,True,79.704,26.438,26.822,26.444
+66,LEC,16,18.0,264.0,237.0,,210.0,False,SOFT,3.0,True,Ferrari,,False,,False,False,103.079,31.495,31.515,40.069
+67,LEC,16,19.0,303.0,288.0,319.0,129.0,False,SOFT,1.0,True,Ferrari,,False,,False,False,,,33.616,32.03
+68,LEC,16,20.0,327.0,341.0,318.0,350.0,True,SOFT,2.0,True,Ferrari,,False,,False,True,79.461,26.373,26.732,26.356
+69,LEC,16,21.0,214.0,184.0,,182.0,False,SOFT,3.0,True,Ferrari,,False,,False,False,,36.518,36.81,
+70,SAI,55,1.0,293.0,308.0,316.0,175.0,False,SOFT,1.0,True,Ferrari,,False,,False,False,,,36.762,32.39
+71,SAI,55,2.0,327.0,305.0,316.0,349.0,True,SOFT,2.0,True,Ferrari,,False,,False,True,83.504,26.404,29.185,27.915
+72,SAI,55,3.0,255.0,224.0,,184.0,False,SOFT,3.0,True,Ferrari,,False,,False,False,116.85,37.286,35.579,43.985
+73,SAI,55,4.0,267.0,298.0,318.0,71.0,False,SOFT,4.0,False,Ferrari,,False,,False,False,,,37.398,33.096
+74,SAI,55,5.0,328.0,338.0,315.0,349.0,True,SOFT,5.0,False,Ferrari,,False,,False,True,80.149,26.403,27.034,26.712
+75,SAI,55,6.0,248.0,260.0,,182.0,False,SOFT,6.0,False,Ferrari,,False,,False,False,115.818,38.104,35.064,42.65
+76,SAI,55,7.0,268.0,281.0,315.0,125.0,False,SOFT,7.0,False,Ferrari,,False,,False,False,,,36.538,33.589
+77,SAI,55,8.0,327.0,337.0,317.0,346.0,True,SOFT,8.0,False,Ferrari,,False,,False,True,80.328,26.427,27.16,26.741
+78,SAI,55,9.0,256.0,309.0,,159.0,False,SOFT,9.0,False,Ferrari,,False,,False,False,101.62,35.067,31.41,35.143
+79,SAI,55,10.0,303.0,302.0,320.0,243.0,False,SOFT,1.0,True,Ferrari,,False,,False,False,122.146,53.879,37.801,30.466
+80,SAI,55,11.0,326.0,337.0,314.0,348.0,True,SOFT,2.0,True,Ferrari,,False,,False,True,79.799,26.348,26.942,26.509
+81,SAI,55,12.0,247.0,273.0,,174.0,False,SOFT,3.0,True,Ferrari,,False,,False,False,109.229,36.371,34.532,38.326
+82,SAI,55,13.0,302.0,307.0,317.0,143.0,False,SOFT,1.0,True,Ferrari,,False,,False,False,,,35.206,33.148
+83,SAI,55,14.0,327.0,339.0,317.0,349.0,True,SOFT,2.0,True,Ferrari,,False,,False,True,79.701,26.258,26.934,26.509
+84,SAI,55,15.0,275.0,267.0,,252.0,False,SOFT,3.0,True,Ferrari,,False,,False,False,103.057,32.041,33.223,37.793
+85,SAI,55,16.0,303.0,312.0,318.0,160.0,False,SOFT,1.0,True,Ferrari,,False,,False,False,,,37.186,31.388
+86,SAI,55,17.0,328.0,341.0,313.0,350.0,True,SOFT,2.0,True,Ferrari,,False,,False,True,79.467,26.223,26.823,26.421
+87,SAI,55,18.0,214.0,214.0,,241.0,False,SOFT,3.0,True,Ferrari,,False,,False,False,,35.167,37.082,
+88,HAM,44,1.0,249.0,288.0,315.0,223.0,False,SOFT,1.0,True,Mercedes,,False,,False,False,,,37.124,31.85
+89,HAM,44,2.0,326.0,334.0,314.0,344.0,True,SOFT,2.0,True,Mercedes,,False,,False,True,80.477,26.633,27.078,26.766
+90,HAM,44,3.0,201.0,250.0,,180.0,False,SOFT,3.0,True,Mercedes,,False,,False,False,129.658,45.907,38.424,45.327
+91,HAM,44,4.0,243.0,267.0,315.0,184.0,False,SOFT,4.0,False,Mercedes,,False,,False,False,,,37.151,30.316
+92,HAM,44,5.0,322.0,337.0,315.0,346.0,False,SOFT,5.0,False,Mercedes,,False,,False,True,80.542,26.883,27.065,26.594
+93,HAM,44,6.0,282.0,237.0,,188.0,False,SOFT,6.0,False,Mercedes,,False,,False,False,109.744,34.359,35.122,40.263
+94,HAM,44,7.0,262.0,289.0,317.0,185.0,False,SOFT,1.0,True,Mercedes,,False,,False,False,,,36.217,30.029
+95,HAM,44,8.0,326.0,340.0,316.0,348.0,True,SOFT,2.0,True,Mercedes,,False,,False,True,79.641,26.407,26.855,26.379
+96,HAM,44,9.0,223.0,229.0,,222.0,False,SOFT,3.0,True,Mercedes,,False,,False,False,115.014,35.28,39.479,40.255
+97,HAM,44,10.0,227.0,264.0,315.0,203.0,False,SOFT,4.0,False,Mercedes,,False,,False,False,,,38.427,32.296
+98,HAM,44,11.0,324.0,338.0,311.0,348.0,False,SOFT,5.0,False,Mercedes,,False,,False,True,79.989,26.422,26.89,26.677
+99,HAM,44,12.0,267.0,210.0,,229.0,False,SOFT,6.0,False,Mercedes,,False,,False,False,107.506,32.13,35.408,39.968
+100,HAM,44,13.0,261.0,169.0,316.0,214.0,False,SOFT,1.0,True,Mercedes,,False,,False,False,,,38.875,32.901
+101,HAM,44,14.0,323.0,338.0,316.0,347.0,True,SOFT,2.0,True,Mercedes,,False,,False,True,79.601,26.381,26.765,26.455
+102,HAM,44,15.0,271.0,233.0,,193.0,False,SOFT,3.0,True,Mercedes,,False,,False,False,107.216,33.079,35.378,38.759
+103,HAM,44,16.0,260.0,299.0,318.0,162.0,False,SOFT,1.0,True,Mercedes,,False,,False,False,,,35.424,33.673
+104,HAM,44,17.0,325.0,338.0,316.0,348.0,True,SOFT,2.0,True,Mercedes,,False,,False,True,79.513,26.428,26.672,26.413
+105,HAM,44,18.0,190.0,303.0,,163.0,False,SOFT,3.0,True,Mercedes,,False,,False,False,,40.736,37.737,
+106,VER,1,1.0,252.0,273.0,316.0,206.0,False,SOFT,1.0,True,Red Bull Racing,,False,,False,False,,,37.186,32.163
+107,VER,1,2.0,324.0,335.0,315.0,342.0,True,SOFT,2.0,True,Red Bull Racing,,False,,False,True,80.226,26.605,26.993,26.628
+108,VER,1,3.0,226.0,205.0,,202.0,False,SOFT,3.0,True,Red Bull Racing,,False,,False,False,116.902,36.172,40.036,40.694
+109,VER,1,4.0,244.0,266.0,316.0,80.0,False,SOFT,4.0,False,Red Bull Racing,,False,,False,False,,,38.544,31.882
+110,VER,1,5.0,323.0,338.0,160.0,346.0,False,SOFT,5.0,False,Red Bull Racing,,False,,False,True,82.812,26.51,26.882,29.42
+111,VER,1,6.0,258.0,259.0,,201.0,False,SOFT,6.0,False,Red Bull Racing,,False,,False,False,108.699,36.275,33.038,39.386
+112,VER,1,7.0,278.0,233.0,317.0,218.0,False,SOFT,1.0,True,Red Bull Racing,,False,,False,False,,,36.213,34.839
+113,VER,1,8.0,324.0,335.0,315.0,343.0,True,SOFT,2.0,True,Red Bull Racing,,False,,False,True,79.874,26.442,26.853,26.579
+114,VER,1,9.0,246.0,218.0,,224.0,False,SOFT,3.0,True,Red Bull Racing,,False,,False,False,115.862,35.389,36.646,43.827
+115,VER,1,10.0,206.0,245.0,319.0,167.0,False,SOFT,4.0,False,Red Bull Racing,,False,,False,False,,,38.193,32.486
+116,VER,1,11.0,326.0,338.0,317.0,347.0,True,SOFT,5.0,False,Red Bull Racing,,False,,False,True,79.662,26.389,26.656,26.617
+117,VER,1,12.0,252.0,247.0,,220.0,False,SOFT,6.0,False,Red Bull Racing,,False,,False,False,110.678,33.477,36.192,41.009
+118,VER,1,13.0,272.0,277.0,318.0,200.0,False,SOFT,1.0,True,Red Bull Racing,,False,,False,False,,,33.79,32.214
+119,VER,1,14.0,324.0,337.0,316.0,346.0,True,SOFT,2.0,True,Red Bull Racing,,False,,False,True,80.072,26.391,26.798000000000002,26.883
+120,VER,1,15.0,285.0,252.0,,231.0,False,SOFT,3.0,True,Red Bull Racing,,False,,False,False,99.706,31.21,31.78,36.716
+121,VER,1,16.0,265.0,316.0,317.0,183.0,False,SOFT,1.0,True,Red Bull Racing,,False,,False,False,,,37.381,29.781
+122,VER,1,17.0,325.0,338.0,315.0,344.0,True,SOFT,2.0,True,Red Bull Racing,,False,,False,True,80.022,26.392,26.947,26.683
+123,VER,1,18.0,228.0,246.0,,140.0,False,SOFT,3.0,True,Red Bull Racing,,False,,False,False,,39.621,36.055,
+124,PER,11,1.0,302.0,225.0,315.0,207.0,False,SOFT,1.0,True,Red Bull Racing,,False,,False,False,,,37.057,32.574
+125,PER,11,2.0,325.0,336.0,311.0,343.0,True,SOFT,2.0,True,Red Bull Racing,,False,,False,True,81.11,26.64,27.352,27.118
+126,PER,11,3.0,267.0,236.0,,172.0,False,SOFT,3.0,True,Red Bull Racing,,False,,False,False,113.937,38.143,36.695,39.099
+127,PER,11,4.0,214.0,303.0,317.0,191.0,False,SOFT,1.0,True,Red Bull Racing,,False,,False,False,,,38.464,30.581
+128,PER,11,5.0,325.0,340.0,315.0,344.0,True,SOFT,2.0,True,Red Bull Racing,,False,,False,True,80.598,26.693,27.181,26.724
+129,PER,11,6.0,275.0,275.0,,174.0,False,SOFT,3.0,True,Red Bull Racing,,False,,False,False,116.508,36.541,37.915,42.052
+130,PER,11,7.0,289.0,296.0,316.0,240.0,False,SOFT,4.0,False,Red Bull Racing,,False,,False,False,,,34.989,30.801
+131,PER,11,8.0,325.0,337.0,314.0,346.0,True,SOFT,5.0,False,Red Bull Racing,,False,,False,True,80.402,26.533,27.091,26.778
+132,PER,11,9.0,267.0,281.0,,211.0,False,SOFT,6.0,False,Red Bull Racing,,False,,False,False,112.279,33.23,36.931,42.118
+133,PER,11,10.0,232.0,274.0,318.0,196.0,False,SOFT,1.0,True,Red Bull Racing,,False,,False,False,,,37.912,31.05
+134,PER,11,11.0,326.0,338.0,314.0,346.0,True,SOFT,2.0,True,Red Bull Racing,,False,,False,True,80.216,26.498,27.034,26.684
+135,PER,11,12.0,253.0,279.0,,205.0,False,SOFT,3.0,True,Red Bull Racing,,False,,False,False,113.06,34.825,36.647,41.588
+136,PER,11,13.0,301.0,255.0,317.0,190.0,False,SOFT,4.0,False,Red Bull Racing,,False,,False,False,,,32.171,34.143
+137,PER,11,14.0,324.0,337.0,313.0,346.0,True,SOFT,5.0,False,Red Bull Racing,,False,,False,True,80.062,26.488,27.042,26.532
+138,PER,11,15.0,288.0,291.0,,263.0,False,SOFT,6.0,False,Red Bull Racing,,False,,False,False,101.414,31.383,33.632,36.399
+139,PER,11,16.0,252.0,304.0,316.0,174.0,False,SOFT,1.0,True,Red Bull Racing,,False,,False,False,,,34.148,29.816
+140,PER,11,17.0,326.0,326.0,,344.0,False,SOFT,2.0,True,Red Bull Racing,,False,,False,False,,26.56,28.056,
+141,ALB,23,1.0,241.0,315.0,315.0,183.0,False,SOFT,1.0,True,Williams,,False,,False,False,,,36.202,30.387
+142,ALB,23,2.0,324.0,338.0,313.0,347.0,True,SOFT,2.0,True,Williams,,False,,False,True,80.82,26.608,27.255,26.957
+143,ALB,23,3.0,266.0,296.0,,235.0,False,SOFT,3.0,True,Williams,,False,,False,False,104.106,34.064,33.964,36.078
+144,ALB,23,4.0,224.0,315.0,312.0,260.0,False,SOFT,1.0,True,Williams,,False,,False,False,,,35.543,30.654
+145,ALB,23,5.0,322.0,334.0,310.0,345.0,True,SOFT,2.0,True,Williams,,False,,False,True,80.542,26.502,27.271,26.769
+146,ALB,23,6.0,269.0,291.0,,103.0,False,SOFT,3.0,True,Williams,,False,,False,False,109.229,39.18,32.579,37.47
+147,ALB,23,7.0,242.0,315.0,315.0,158.0,False,SOFT,4.0,False,Williams,,False,,False,False,,,36.197,30.412
+148,ALB,23,8.0,323.0,338.0,315.0,345.0,True,SOFT,5.0,False,Williams,,False,,False,True,80.46,26.485,27.128,26.847
+149,ALB,23,9.0,233.0,305.0,,257.0,False,SOFT,6.0,False,Williams,,False,,False,False,105.96,36.107,32.928,36.925
+150,ALB,23,10.0,263.0,309.0,315.0,238.0,False,SOFT,1.0,True,Williams,,False,,False,False,,,38.851,29.586
+151,ALB,23,11.0,322.0,338.0,314.0,348.0,True,SOFT,2.0,True,Williams,,False,,False,True,80.314,26.436,27.071,26.807
+152,ALB,23,12.0,260.0,274.0,,242.0,False,SOFT,3.0,True,Williams,,False,,False,False,110.525,35.096,35.543,39.886
+153,ALB,23,13.0,240.0,311.0,313.0,264.0,False,SOFT,4.0,False,Williams,,False,,False,False,,,37.358,31.172
+154,ALB,23,14.0,322.0,338.0,314.0,344.0,True,SOFT,5.0,False,Williams,,False,,False,True,80.87,26.553,27.261,27.056
+155,ALB,23,15.0,293.0,300.0,,198.0,False,SOFT,6.0,False,Williams,,False,,False,False,101.48,35.209,30.748,35.523
+156,ALB,23,16.0,274.0,315.0,314.0,203.0,False,SOFT,1.0,True,Williams,,False,,False,False,,,35.727,30.463
+157,ALB,23,17.0,324.0,339.0,314.0,347.0,True,SOFT,2.0,True,Williams,,False,,False,True,80.299,26.395,27.12,26.784
+158,ALB,23,18.0,198.0,280.0,,245.0,False,SOFT,3.0,True,Williams,,False,,False,False,,36.842,34.508,
+159,HUL,27,1.0,263.0,265.0,315.0,166.0,False,SOFT,1.0,True,Haas F1 Team,,False,,False,False,,,36.69,30.625
+160,HUL,27,2.0,328.0,341.0,311.0,351.0,True,SOFT,2.0,True,Haas F1 Team,,False,,False,True,80.781,26.513,27.363,26.905
+161,HUL,27,3.0,303.0,246.0,,303.0,False,SOFT,3.0,True,Haas F1 Team,,False,,False,False,105.627,28.97,33.845,42.812
+162,HUL,27,4.0,247.0,293.0,316.0,109.0,False,SOFT,1.0,True,Haas F1 Team,,False,,False,False,,,36.348,30.481
+163,HUL,27,5.0,331.0,342.0,308.0,350.0,False,SOFT,2.0,True,Haas F1 Team,,False,,False,True,81.278,26.428,27.262,27.588
+164,HUL,27,6.0,297.0,279.0,,151.0,False,SOFT,3.0,True,Haas F1 Team,,False,,False,False,111.382,38.334,31.385,41.663
+165,HUL,27,7.0,204.0,228.0,314.0,197.0,False,SOFT,4.0,False,Haas F1 Team,,False,,False,False,,,38.083,33.649
+166,HUL,27,8.0,328.0,339.0,311.0,347.0,True,SOFT,5.0,False,Haas F1 Team,,False,,False,True,80.434,26.423,27.175,26.836
+167,HUL,27,9.0,286.0,266.0,,303.0,False,SOFT,6.0,False,Haas F1 Team,,False,,False,False,101.825,29.163,31.906,40.756
+168,HUL,27,10.0,210.0,263.0,316.0,201.0,False,SOFT,1.0,True,Haas F1 Team,,False,,False,False,,,37.493,33.925
+169,HUL,27,11.0,328.0,341.0,316.0,349.0,True,SOFT,2.0,True,Haas F1 Team,,False,,False,True,80.411,26.341,27.16,26.91
+170,HUL,27,12.0,259.0,202.0,,318.0,False,SOFT,3.0,True,Haas F1 Team,,False,,False,False,110.658,34.946,34.641,41.071
+171,HUL,27,13.0,238.0,226.0,314.0,173.0,False,SOFT,4.0,False,Haas F1 Team,,False,,False,False,,,37.805,33.223
+172,HUL,27,14.0,326.0,338.0,313.0,346.0,True,SOFT,5.0,False,Haas F1 Team,,False,,False,True,80.482,26.481,27.238,26.763
+173,HUL,27,15.0,301.0,281.0,,297.0,False,SOFT,6.0,False,Haas F1 Team,,False,,False,False,96.592,29.306,30.843,36.443
+174,HUL,27,16.0,285.0,293.0,316.0,205.0,False,SOFT,1.0,True,Haas F1 Team,,False,,False,False,,,37.425,32.793
+175,HUL,27,17.0,328.0,339.0,317.0,347.0,True,SOFT,2.0,True,Haas F1 Team,,False,,False,True,80.339,26.479,27.074,26.786
+176,HUL,27,18.0,244.0,250.0,,270.0,False,SOFT,3.0,True,Haas F1 Team,,False,,False,False,,30.857,35.234,
+177,ALO,14,1.0,199.0,249.0,315.0,144.0,False,SOFT,1.0,True,Aston Martin,,False,,False,False,,,35.0,32.358
+178,ALO,14,2.0,325.0,338.0,309.0,349.0,True,SOFT,2.0,True,Aston Martin,,False,,False,True,80.617,26.537,27.143,26.937
+179,ALO,14,3.0,235.0,235.0,,182.0,False,SOFT,3.0,True,Aston Martin,,False,,False,False,109.963,33.394,35.311,41.258
+180,ALO,14,4.0,237.0,225.0,316.0,190.0,False,SOFT,1.0,True,Aston Martin,,False,,False,False,,,37.408,34.251
+181,ALO,14,5.0,322.0,338.0,,349.0,False,SOFT,2.0,True,Aston Martin,,False,,False,False,89.098,26.465,27.201,35.432
+182,ALO,14,6.0,242.0,314.0,315.0,91.0,False,SOFT,3.0,False,Aston Martin,,False,,False,False,,,35.419,32.316
+183,ALO,14,7.0,325.0,340.0,312.0,350.0,True,SOFT,4.0,False,Aston Martin,,False,,False,True,80.57,26.424,27.261,26.885
+184,ALO,14,8.0,243.0,246.0,,250.0,False,SOFT,5.0,False,Aston Martin,,False,,False,False,103.969,33.218,33.974,36.777
+185,ALO,14,9.0,254.0,166.0,317.0,199.0,False,SOFT,1.0,True,Aston Martin,,False,,False,False,,,37.281,37.08
+186,ALO,14,10.0,322.0,337.0,310.0,353.0,True,SOFT,2.0,True,Aston Martin,,False,,False,True,80.421,26.463,27.131,26.826999999999998
+187,ALO,14,11.0,204.0,237.0,,186.0,False,SOFT,3.0,True,Aston Martin,,False,,False,False,118.113,34.134,37.293,46.686
+188,RIC,3,1.0,285.0,271.0,314.0,155.0,False,SOFT,1.0,True,RB,,False,,False,False,,,37.84,34.143
+189,RIC,3,2.0,325.0,338.0,314.0,348.0,True,SOFT,2.0,True,RB,,False,,False,True,81.059,26.646,27.292,27.121
+190,RIC,3,3.0,263.0,162.0,,260.0,False,SOFT,3.0,True,RB,,False,,False,False,114.125,33.418,37.413,43.294
+191,RIC,3,4.0,268.0,281.0,316.0,151.0,False,SOFT,1.0,True,RB,,False,,False,False,,,36.123,32.919
+192,RIC,3,5.0,326.0,341.0,315.0,351.0,True,SOFT,2.0,True,RB,,False,,False,True,80.901,26.52,27.427,26.954
+193,RIC,3,6.0,263.0,299.0,,172.0,False,SOFT,3.0,True,RB,,False,,False,False,112.468,36.512,34.624,41.332
+194,RIC,3,7.0,271.0,317.0,312.0,136.0,False,SOFT,4.0,False,RB,,False,,False,False,,,35.036,33.385
+195,RIC,3,8.0,326.0,341.0,314.0,349.0,True,SOFT,5.0,False,RB,,False,,False,True,81.273,26.615,27.457,27.201
+196,RIC,3,9.0,287.0,302.0,,171.0,False,SOFT,6.0,False,RB,,False,,False,False,105.336,36.507,31.3,37.529
+197,RIC,3,10.0,263.0,294.0,318.0,152.0,False,SOFT,1.0,True,RB,,False,,False,False,,,36.291,33.269
+198,RIC,3,11.0,327.0,342.0,313.0,353.0,True,SOFT,2.0,True,RB,,False,,False,True,80.479,26.363,27.141,26.975
+199,RIC,3,12.0,271.0,267.0,,236.0,False,SOFT,3.0,True,RB,,False,,False,False,107.759,33.515,34.147,40.097
+200,MAG,20,1.0,253.0,307.0,314.0,120.0,False,SOFT,1.0,True,Haas F1 Team,,False,,False,False,,,35.836,30.358
+201,MAG,20,2.0,326.0,341.0,315.0,350.0,True,SOFT,2.0,True,Haas F1 Team,,False,,False,True,80.856,26.784,27.203,26.869
+202,MAG,20,3.0,289.0,228.0,,245.0,False,SOFT,3.0,True,Haas F1 Team,,False,,False,False,106.774,31.681,36.361,38.732
+203,MAG,20,4.0,267.0,313.0,316.0,147.0,False,SOFT,1.0,True,Haas F1 Team,,False,,False,False,,,35.663,30.196
+204,MAG,20,5.0,328.0,342.0,,351.0,False,SOFT,2.0,True,Haas F1 Team,,False,,False,False,107.883,26.654,27.459,53.77
+205,MAG,20,6.0,259.0,306.0,314.0,129.0,False,SOFT,4.0,False,Haas F1 Team,,False,,False,False,,,35.441,30.479
+206,MAG,20,7.0,328.0,341.0,313.0,350.0,True,SOFT,5.0,False,Haas F1 Team,,False,,False,True,80.698,26.466,27.107,27.125
+207,MAG,20,8.0,285.0,303.0,,111.0,False,SOFT,6.0,False,Haas F1 Team,,False,,False,False,110.508,40.532,33.764,36.212
+208,MAG,20,9.0,198.0,300.0,316.0,233.0,False,SOFT,1.0,True,Haas F1 Team,,False,,False,False,,,37.914,33.017
+209,MAG,20,10.0,325.0,336.0,313.0,349.0,False,SOFT,2.0,True,Haas F1 Team,,False,,False,True,80.933,26.508,27.332,27.093
+210,MAG,20,11.0,136.0,297.0,,192.0,False,SOFT,3.0,True,Haas F1 Team,,False,,False,False,119.731,40.201,43.068,36.462
+211,GAS,10,1.0,285.0,313.0,315.0,227.0,False,SOFT,1.0,True,Alpine,,False,,False,False,,,33.379,33.669
+212,GAS,10,2.0,327.0,339.0,315.0,348.0,True,SOFT,2.0,True,Alpine,,False,,False,True,81.908,26.99,27.843,27.075
+213,GAS,10,3.0,251.0,223.0,,208.0,False,SOFT,3.0,True,Alpine,,False,,False,False,114.293,34.485,36.999,42.809
+214,GAS,10,4.0,215.0,316.0,316.0,58.0,False,SOFT,4.0,False,Alpine,,False,,False,False,,,34.853,30.939
+215,GAS,10,5.0,328.0,340.0,317.0,348.0,True,SOFT,5.0,False,Alpine,,False,,False,True,80.748,26.473,27.364,26.911
+216,GAS,10,6.0,293.0,293.0,,295.0,False,SOFT,6.0,False,Alpine,,False,,False,False,108.613,31.138,34.54,42.935
+217,GAS,10,7.0,255.0,172.0,317.0,191.0,False,SOFT,1.0,True,Alpine,,False,,False,False,,,36.618,31.059
+218,GAS,10,8.0,326.0,226.0,,351.0,False,SOFT,2.0,True,Alpine,,False,,False,False,101.464,26.53,28.994,45.94
+219,GAS,10,9.0,283.0,304.0,257.0,84.0,False,SOFT,3.0,False,Alpine,,False,,False,False,,,35.071,34.177
+220,GAS,10,10.0,292.0,316.0,318.0,255.0,True,SOFT,4.0,False,Alpine,,False,,False,True,98.961,32.921,32.964,33.076
+221,GAS,10,11.0,325.0,337.0,316.0,346.0,True,SOFT,5.0,False,Alpine,,False,,False,True,80.738,26.563,27.263,26.912
+222,GAS,10,12.0,263.0,292.0,,280.0,False,SOFT,6.0,False,Alpine,,False,,False,False,106.911,32.262,34.886,39.763
+223,GAS,10,13.0,215.0,314.0,222.0,187.0,False,SOFT,1.0,True,Alpine,,False,,False,False,,,35.195,37.041
+224,GAS,10,14.0,195.0,323.0,319.0,127.0,False,SOFT,2.0,True,Alpine,,False,,False,True,108.428,41.304,35.418,31.706
+225,GAS,10,15.0,327.0,342.0,314.0,352.0,False,SOFT,3.0,True,Alpine,,False,,False,True,81.009,26.645,27.372,26.992
+226,GAS,10,16.0,227.0,275.0,,202.0,False,SOFT,4.0,True,Alpine,,False,,False,False,114.492,35.594,34.763,44.135
+227,OCO,31,1.0,275.0,314.0,314.0,230.0,False,SOFT,1.0,True,Alpine,,False,,False,False,,,33.336,35.205
+228,OCO,31,2.0,326.0,338.0,312.0,346.0,True,SOFT,2.0,True,Alpine,,False,,False,True,81.346,26.66,27.595,27.091
+229,OCO,31,3.0,260.0,227.0,,207.0,False,SOFT,3.0,True,Alpine,,False,,False,False,113.061,34.086,35.711,43.264
+230,OCO,31,4.0,268.0,293.0,316.0,88.0,False,SOFT,4.0,False,Alpine,,False,,False,False,,,34.229,32.328
+231,OCO,31,5.0,328.0,341.0,316.0,348.0,True,SOFT,5.0,False,Alpine,,False,,False,True,80.764,26.504,27.264,26.996
+232,OCO,31,6.0,299.0,299.0,,256.0,False,SOFT,6.0,False,Alpine,,False,,False,False,106.417,30.372,32.798,43.247
+233,OCO,31,7.0,308.0,216.0,308.0,164.0,False,SOFT,1.0,True,Alpine,,False,,False,False,,,33.695,32.433
+234,OCO,31,8.0,327.0,287.0,,349.0,False,SOFT,2.0,True,Alpine,,False,,False,False,99.036,27.312,30.255,41.469
+235,OCO,31,9.0,279.0,230.0,256.0,107.0,False,SOFT,3.0,False,Alpine,,False,,False,False,,,35.483,34.95
+236,OCO,31,10.0,293.0,309.0,318.0,239.0,True,SOFT,4.0,False,Alpine,,False,,False,True,96.883,32.52,33.346,31.017
+237,OCO,31,11.0,326.0,339.0,317.0,348.0,True,SOFT,5.0,False,Alpine,,False,,False,True,80.884,26.61,27.315,26.959
+238,OCO,31,12.0,298.0,301.0,,283.0,False,SOFT,6.0,False,Alpine,,False,,False,False,103.547,30.537,34.043,38.967
+239,OCO,31,13.0,213.0,291.0,247.0,191.0,False,SOFT,1.0,True,Alpine,,False,,False,False,,,36.013,37.27
+240,OCO,31,14.0,144.0,322.0,319.0,140.0,False,SOFT,2.0,True,Alpine,,False,,False,True,107.819,42.314,34.811,30.694
+241,OCO,31,15.0,327.0,341.0,316.0,351.0,True,SOFT,3.0,True,Alpine,,False,,False,True,80.766,26.436,27.418,26.912
+242,OCO,31,16.0,236.0,226.0,,199.0,False,SOFT,4.0,True,Alpine,,False,,False,False,114.23,34.367,35.662,44.201
+243,TSU,22,1.0,286.0,306.0,317.0,161.0,False,SOFT,1.0,True,RB,,False,,False,False,,,37.577,30.775
+244,TSU,22,2.0,325.0,339.0,309.0,348.0,True,SOFT,2.0,True,RB,,False,,False,True,81.068,26.54,27.386,27.142
+245,TSU,22,3.0,258.0,278.0,,248.0,False,SOFT,3.0,True,RB,,False,,False,False,110.757,32.827,37.218,40.712
+246,TSU,22,4.0,256.0,305.0,316.0,163.0,False,SOFT,1.0,True,RB,,False,,False,False,,,36.226,33.239
+247,TSU,22,5.0,325.0,339.0,314.0,348.0,True,SOFT,2.0,True,RB,,False,,False,True,80.945,26.572,27.406,26.967
+248,TSU,22,6.0,219.0,245.0,,241.0,False,SOFT,3.0,True,RB,,False,,False,False,114.077,32.711,38.36,43.006
+249,STR,18,1.0,199.0,249.0,314.0,199.0,False,SOFT,1.0,True,Aston Martin,,False,,False,False,,,37.929,33.23
+250,STR,18,2.0,322.0,336.0,307.0,345.0,True,SOFT,2.0,True,Aston Martin,,False,,False,True,81.013,26.648,27.18,27.185
+251,STR,18,3.0,207.0,219.0,,217.0,False,SOFT,3.0,True,Aston Martin,,False,,False,False,111.177,34.246,37.007,39.924
+252,STR,18,4.0,249.0,292.0,316.0,152.0,False,SOFT,1.0,True,Aston Martin,,False,,False,False,,,32.831,32.984
+253,STR,18,5.0,322.0,338.0,312.0,351.0,False,SOFT,2.0,True,Aston Martin,,False,,False,True,81.193,26.575,27.244,27.374
+254,STR,18,6.0,250.0,232.0,,184.0,False,SOFT,3.0,True,Aston Martin,,False,,False,False,110.938,34.612,35.115,41.211
+255,COL,43,1.0,221.0,317.0,316.0,190.0,False,SOFT,1.0,True,Williams,,False,,False,False,,,35.909,30.406
+256,COL,43,2.0,325.0,338.0,314.0,348.0,True,SOFT,2.0,True,Williams,,False,,False,True,81.061,26.613,27.42,27.028
+257,COL,43,3.0,263.0,285.0,,306.0,False,SOFT,3.0,True,Williams,,False,,False,False,102.712,30.571,35.384,36.757
+258,COL,43,4.0,219.0,315.0,315.0,124.0,False,SOFT,1.0,True,Williams,,False,,False,False,,,34.844,30.358
+259,COL,43,5.0,327.0,339.0,311.0,347.0,False,SOFT,2.0,True,Williams,,True,TRACK LIMITS AT TURN 7 LAP 6 ,False,True,82.531,26.614,27.637,28.28
+260,COL,43,6.0,254.0,314.0,,133.0,False,SOFT,3.0,True,Williams,,False,,False,False,116.286,47.707,30.659,37.92
+261,BOT,77,1.0,179.0,308.0,316.0,204.0,False,SOFT,1.0,True,Kick Sauber,,False,,False,False,,,35.84,34.058
+262,BOT,77,2.0,328.0,341.0,311.0,352.0,True,SOFT,2.0,True,Kick Sauber,,False,,False,True,81.101,26.706,27.446,26.949
+263,BOT,77,3.0,288.0,248.0,,225.0,False,SOFT,3.0,True,Kick Sauber,,False,,False,False,108.245,31.064,34.0,43.181
+264,BOT,77,4.0,301.0,313.0,316.0,180.0,False,SOFT,1.0,True,Kick Sauber,,False,,False,False,,,34.945,30.725
+265,BOT,77,5.0,328.0,342.0,274.0,352.0,False,SOFT,2.0,True,Kick Sauber,,False,,False,True,83.467,26.572,27.491,29.404
+266,BOT,77,6.0,251.0,251.0,,173.0,False,SOFT,3.0,True,Kick Sauber,,False,,False,False,113.035,37.403,36.118,39.514
+267,ZHO,24,1.0,233.0,285.0,311.0,180.0,False,SOFT,1.0,True,Kick Sauber,,False,,False,False,,,36.406,34.895
+268,ZHO,24,2.0,324.0,337.0,308.0,346.0,True,SOFT,2.0,True,Kick Sauber,,False,,False,True,81.968,26.931,27.756,27.281
+269,ZHO,24,3.0,300.0,304.0,,257.0,False,SOFT,3.0,True,Kick Sauber,,False,,False,False,100.101,31.669,32.54,35.892
+270,ZHO,24,4.0,304.0,276.0,314.0,197.0,False,SOFT,1.0,True,Kick Sauber,,False,,False,False,,,37.586,35.257
+271,ZHO,24,5.0,326.0,338.0,315.0,348.0,True,SOFT,2.0,True,Kick Sauber,,False,,False,True,81.514,26.838,27.624,27.052
+272,ZHO,24,6.0,300.0,311.0,,296.0,False,SOFT,3.0,True,Kick Sauber,,False,,False,False,95.379,28.879,30.454,36.046
+273,ZHO,24,7.0,305.0,314.0,316.0,199.0,False,SOFT,1.0,True,Kick Sauber,,False,,False,False,,,36.779,32.472
+274,ZHO,24,8.0,327.0,344.0,316.0,352.0,True,SOFT,2.0,True,Kick Sauber,,False,,False,True,81.445,26.5,27.485,27.46
+275,ZHO,24,9.0,289.0,293.0,,166.0,False,SOFT,3.0,True,Kick Sauber,,False,,False,False,111.886,35.256,32.873,43.757
