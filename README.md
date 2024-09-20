@@ -65,3 +65,11 @@ This may change as we proceed with the analysis.
 8. Build design templates for the dashboard
 9. Write documentation
 
+## Data exploration
+
+What we learnt?
+- We have data that we don't need and can remove it.
+- Lap times and sectors times are in problematic format, we will need to change it.
+- We have all inforamtio we need for dashboard.
+All code can be found [here](https://github.com/MichalPac/2024-Italian-GP-Dashboard/blob/main/Italian-GP-Analysis-Notebook.ipynb)
+
