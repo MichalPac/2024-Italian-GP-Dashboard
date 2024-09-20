@@ -22,4 +22,15 @@ What do we need to create this dashboard?
 The data will be gathered using the [FastF1](https://docs.fastf1.dev/) Python library, which is designed to provide easy access to Formula 1 data, including live timing, telemetry, and lap-by-lap details.
 
 
+# Design
+## Dashboard components required
+What are the questions we want the dashboard to answer:
+- What were the qualifying and race results?
+- What was the margin in qualifying?
+- What was the performance of each driver in each sector?
+- What were the top speeds in qualifying and the race?
+- What tires did the drivers use?
+- How many pit stops did each driver make?
+- How did tire life affect pace?
+- What was the race pace?
 
