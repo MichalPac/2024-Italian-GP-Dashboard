@@ -111,6 +111,7 @@ All code can be found [here](https://github.com/MichalPac/2024-Italian-GP-Dashbo
 ## DAX
 
 ### 1. Qualifying Delta
+The following DAX expression calculates the qualifying delta for each lap time
 
 ```DAX
 QualiDelta = IF(
