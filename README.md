@@ -17,6 +17,7 @@
   - [DAX for Qualifying Dataset](#DAX-for-Qualifying-Dataset)
   - [DAX for Race Dataset](#DAX-for-Race-Dataset)
 - [Analysis](#Analysis)
+- [Conclusion](#Conclusion)
 
 
 # Objective
@@ -415,7 +416,7 @@ For most drivers, lap times on medium tires started to drop after around 10 laps
 "It seems that McLaren had the fastest car, followed by Ferrari. Mercedes and Red Bull had very similar median lap times, and their lap times were more spread out. In the midfield, there were four teams, while Alpine and Kick Sauber had the slowest cars.
 
 
-# Coclusion
+# Conclusion
 
 The power of data in motorsport is invaluable. Teams can gather and analyze data to better understand their cars, identify strengths, and pinpoint areas for improvement. Historical data can also play a crucial role in informing race strategies and guiding setup changes. By analyzing past performances, teams can predict tire wear, fuel consumption, and even weather conditions, helping them make more informed decisions during a race. The ability to process and act on real-time data can be the difference between victory and defeat, making data analytics a key factor in modern motorsport success
 
