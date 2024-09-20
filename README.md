@@ -1,6 +1,8 @@
 # Table of contents
 - [Objective](#Objective)
 - [Data Source](#Data-Source)
+- [Design](#Design)
+ - [Dashboard components required](#Dashboard-components-required)
 
 
 
