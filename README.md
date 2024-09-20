@@ -128,3 +128,10 @@ The following DAX expression calculates best sector 1 time for each driver
 S1Best = IF(quali[Sector1TimeSec]=MINX(quali, quali[Sector1TimeSec]), 1, BLANK()) 
 ```
 The same DAX code was used for the other sectors accordingly.
+
+### 2. Best top speed category
+The following DAX expression calculates and output 1 if top speed is best overall
+
+```DAX
+BestTopSpeedY/N = IF(quali[SpeedST]=MAX(quali[SpeedST]), 1, BLANK())
+```
