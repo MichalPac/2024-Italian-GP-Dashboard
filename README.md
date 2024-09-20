@@ -95,6 +95,16 @@ All code can be found [here](https://github.com/MichalPac/2024-Italian-GP-Dashbo
 
 ## Dashboard
 
-### Qualifying
+### Qualifying tab
 
 ![quali](assets/images/quali_dash.gif)
+
+### Race tab
+
+![quali](assets/images/race_dash.gif)
+
+### Python tab
+
+![quali](assets/images/python_dash.gif)
+
+
