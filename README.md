@@ -235,3 +235,107 @@ SWITCH(
 ```
 The same DAX code was used for the other sectors accordingly.
 
+
+## DAX for Race Dataset
+
+### 1. Average Pace
+The following DAX expression calculates average pace for each driver
+```DAX
+AvgPace = CALCULATE(
+    AVERAGE(race[LapTimeSec]),
+    ALLEXCEPT('race', race[Driver])
+)   
+```
+
+### 2. Best Average Pace
+The following DAX expression calculates best average pace 
+```DAX
+BestAvgLapTime = MINX(race, race[AvgPace])
+```
+
+### 3. Average Pace Delta
+The following DAX expression calculates delta for average pace for each driver
+```DAX
+AvgPaceDelta = race[AvgPace] - race[BestAvgLapTime] 
+```
+
+### 4. Leading?
+The following DAX expression checks if driver was on lead or not 
+```DAX
+Leading = IF(race[Position]=1, TRUE(), FALSE())
+```
+
+### 5. Pit Stop Number
+The following DAX expression calculates how many times each driver was in pits
+```DAX
+PitStopCountPerDriver = 
+CALCULATE(
+    COUNTROWS(race),
+    NOT(ISBLANK(race[PitInTimeSec])),
+    ALLEXCEPT(race, race[Driver])
+)
+```
+
+### 6. Positions At The Finish
+The following DAX expression outputs positions at the finish for each driver
+```DAX
+PositionsAtTheFinish =
+IF(race[LapNumber] = 53, race[Position],
+ IF(race[LapNumber]=52, race[Position], BLANK())
+)
+```
+
+### 7. Best Lap Time for Each Driver
+The following DAX expression calculates best lap time for each driver
+```DAX
+BestLapTimePerDriver = 
+CALCULATE(
+    MINX(
+        FILTER(
+            'race',
+            'race'[LapTimeSec] > 0),
+        'race'[LapTimeSec]),
+    ALLEXCEPT('race', 'race'[Driver])
+)
+```
+
+### 8. Hards usage
+The following DAX expression checks for hard tire for each driver
+```DAX
+HARDS = IF(race[Compound]="HARD", "HARD", BLANK())
+```
+The same DAX code was used for the rest of compounds accordingly.
+
+### 9. Compound on The Start
+The following DAX expression checks what compound was used at the start for each driver
+```DAX
+CompoundOnStart = IF(race[Stint]=1, race[Compound], BLANK())
+```
+
+### 10. Best Lap time Overall
+The following DAX expression calculates best lap time of the race overall
+```DAX
+BestLapTimeOverall = MIN(race[BestLapTimePerDriver])
+```
+
+### 12. Delta for best lap time of each driver
+The following DAX expression calculates delta for best lap time of each driver
+```DAX
+BestlapTimeDelta = race[BestLapTimePerDriver] - race[BestLapTimeOverall]
+```
+
+### 13. Best Lap Time Overall?
+The following DAX expression outputs 1 if driver's best lap time = overall best lap time
+```DAX
+IsBestLapOverall = IF(race[LapTimeSec]=race[BestLapTimeOverall], 1, BLANK())
+```
+
+### 14. Top Speed Best?
+The following DAX expression outputs 1 if driver's top speed = overall best top speed
+```DAX
+isTopSpeedBest = IF(race[SpeedST] = MAX(race[SpeedST]), 1, BLANK())
+```
+
+
+
+
