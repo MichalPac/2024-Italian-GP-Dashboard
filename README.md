@@ -93,3 +93,8 @@ All code can be found [here](https://github.com/MichalPac/2024-Italian-GP-Dashbo
 
 # Visualization
 
+## Dashboard
+
+### Qualifying
+
+![quali](assets/imagees/quali.gif)
