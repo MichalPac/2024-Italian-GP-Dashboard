@@ -97,4 +97,4 @@ All code can be found [here](https://github.com/MichalPac/2024-Italian-GP-Dashbo
 
 ### Qualifying
 
-![quali](assets/imagees/quali.gif)
+![quali](assets/imagees/quali_dash.gif)
