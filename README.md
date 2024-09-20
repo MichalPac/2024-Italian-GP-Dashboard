@@ -365,6 +365,71 @@ The following DAX expression outputs 1 if driver's top speed = overall best top 
 isTopSpeedBest = IF(race[SpeedST] = MAX(race[SpeedST]), 1, BLANK())
 ```
 
+## Python Scripts in Power BI
+
+### 1. Box plot showing the pace of each team.
+```Python
+import pandas as pd
+import matplotlib.pyplot as plt
+import seaborn as sns
+import fastf1
+import fastf1.plotting
+
+team_order = (
+    dataset[["Team", "LapTimeSec"]]
+    .groupby("Team")
+    .median()["LapTimeSec"]
+    .sort_values()
+    .index
+)
+
+team_palette = {
+    'Red Bull Racing': '#00174C',
+    'Ferrari': '#EF1A2D',
+    'Mercedes': '#00A19B',
+    'McLaren': '#FF8000',
+    'Alpine': '#FF87BC',
+    'Aston Martin': '#229971',
+    'RB': '#6692FF',
+    'Kick Sauber': '#52E252',
+    'Williams': '#00A0DE',
+    'Haas F1 Team': '#F9F2F2'
+}
+
+background_color = 'none' 
+
+fig, ax = plt.subplots(figsize=(15, 10))
+sns.boxplot(
+    data=dataset,
+    x='Team',
+    y="LapTimeSec",
+    hue="Team",
+    whiskerprops=dict(color="white"),
+    boxprops=dict(edgecolor="white"),
+    medianprops=dict(color="grey"),
+    capprops=dict(color="white"),
+    palette=team_palette,
+    order=team_order,
+    showfliers=False
+)
+
+plt.xlabel("")
+plt.ylabel('Lap Time in Sec', fontsize=15, color="white")
+plt.grid(visible=False)
+plt.xticks(rotation=45, color="white")
+plt.yticks(color="white")
+plt.title('Pace', fontsize=25, color='white')
+fig.patch.set_facecolor(background_color)
+ax.set_facecolor(background_color)
+ax.spines['top'].set_color('white')
+ax.spines['bottom'].set_color('white')
+ax.spines['left'].set_color('white')
+ax.spines['right'].set_color('white')
+
+
+
+plt.show()
+```
 
 # Analysis
 
