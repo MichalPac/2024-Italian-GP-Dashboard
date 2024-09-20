@@ -339,7 +339,7 @@ isTopSpeedBest = IF(race[SpeedST] = MAX(race[SpeedST]), 1, BLANK())
 
 # Analysis
 
-__What were the qualifying and race results?__
+## 1. What were the qualifying and race results?
 
 Qualifying was won by Lando Norris. Second place was claimed by his teammate Piastri, and third place went to Russell.
 
@@ -348,17 +348,17 @@ The race was won by Leclerc, with McLaren driver Piastri finishing in second pla
 
 
 
-__What was the margin in qualifying?__
+## 2. What was the margin in qualifying?
 
 The first five places remained within 0.186 seconds. After that, the gap to P1 began to grow more quickly, with the biggest gap reaching 2.118 seconds.
 
-__What was the performance of each driver in each sector?__
+## 3. What was the performance of each driver in each sector?
 
 The winner of the qualifying, Norris, had a poor sector 1 time, losing 0.269 seconds to Sainz. However, in the 2nd and 3rd sectors, Norris was the fastest driver and made up for the lost time.
 
 We can also see that McLaren wasn't the best car in sector 1 because Norris's teammate Piastri also had quite a margin to Sainz. Sector 1 in Monza mostly consists of straights, which suggests that McLaren didn't have a fast car on the straights compared to rivals.
 
-__What were the top speeds in qualifying and the race?__
+## 4. What were the top speeds in qualifying and the race?
 
 The best top speed in qualifying was 353 km/h, achieved by Racing Bulls driver Daniel Ricciardo. In the race, the fastest top speed was 357 km/h, set by Haas F1 Team driver Kevin Magnussen.
 
